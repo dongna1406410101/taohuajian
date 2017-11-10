@@ -1,0 +1,244 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>用户登录</title>
+    <script type="text/javascript" src="js/JavaScript.js"></script>
+        <style type="text/css">
+        @import "css/Tongyong.css";
+        @import "css/StyleSheet1.css";
+            #mmm1 {
+                margin:0px auto;
+                width:985px;
+                margin-bottom:10px;
+                overflow:hidden;
+            }
+            #ddpp {
+                width:580px;
+                height:405px;
+                margin-left:20px;
+                margin-top:10px;
+                background-color:white;
+                float:left;
+            }
+                #ddpp legend,#Fieldset1 legend{
+                    font-weight:bold;
+                    font-size:18px;
+                    color:#f2a;
+                    margin-left:20px;
+
+                }
+                #ddpp span {
+                    display:block;
+                 width:580px;
+                height:30px;
+                }
+                #ddpp p {
+                    padding-left:10px ;
+                    padding-top:5px;
+                    padding-bottom:2px;
+                }
+                #ddpp div {
+                    width:580px;
+                    height:350px;
+                    background-color:#f1ecec;
+                }
+            #huop p {
+                display:block;
+                height:40px;
+                /*border:1px solid #1251e9;*/
+                line-height:40px;
+            }
+            #huop input,#hyr input, #gdtk input {
+                width:200px;
+                height:25px;
+            }
+            .jdd1 {
+                font:15px 微软雅黑;
+                font-weight:bold;
+            }
+              .rrrr {
+                display:inline-block;
+                width:100px;
+                text-align:right;
+            }
+            #huop select {
+                width:70px;
+                height:25px;
+            }
+            #fsa5 {
+                display:inline-block;
+                height:40px;
+                line-height:40px;
+            }
+            #ffssk {
+                position:relative;
+                top:8px;
+            }
+            #ssjoo,#Label2 {
+                position:relative;
+                top:-12px;
+            }
+            #hyr {
+                width:580px;
+                height:400px;
+                background-color:white;
+                position:absolute;
+                top:54px;
+                left:0px;
+                /*display:none;*/
+            }
+                #hyr p {
+                                    display:block;
+                height:60px;
+                /*border:1px solid #1251e9;*/
+                line-height:60px;
+                }
+            #Label1 {
+                                position:relative;
+                top:-12px;
+            }
+            #Fieldset1 {
+                 width:335px;
+                 padding-bottom:1px;
+                margin-left:20px;
+                margin-top:10px;
+                background-color:white;
+         float:right;
+            }
+            #Fieldset1 p {
+                 display:block;
+                height:30px;
+                line-height:30px;
+            }
+            #gdtk {
+                  background-color:#f1ecec;
+            }
+            #gdtk p{
+                display:block;
+                height:60px;
+                /*border:1px solid #1251e9;*/
+                line-height:60px;
+            }
+        </style>
+</head>
+<body>
+    <iframe src="index3.html" width="100%" height="101" frameborder="0" scrolling="no" frameborde="0"></iframe>
+        <div id="a1">
+            <div id="nav">
+                <ul>
+                    <li><a href="#" id="e11">全部商品分类</a>
+                        <ul style="z-index:20">
+                            <li><a href="#">美食</a></li>
+                            <li><a href="#">旅游</a></li>
+                            <li><a href="#">酒店</a></li>
+                            <li><a href="#">电影</a></li>
+                            <li><a href="#">KTV</a></li>
+                            <li><a href="#">时尚</a></li>
+                            <li><a href="#">生活服务</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="index1.html">首页</a></li>
+                    <li><a href="#">团购</a></li>
+                    <li><a href="#">美食</a></li>
+                    <li><a href="#">电影</a></li>
+                    <li><a href="#">KTV</a></li>
+                    <li><a href="#">酒店订票</a></li>
+                    <li><a href="#">购物</a></li>
+                    <li><a href="#">品牌特卖</a></li>
+                </ul>
+            </div>
+        </div>
+
+    <div id="mmm1">
+        <fieldset id="ddpp" style="position:relative;">
+            <legend>注册新用户</legend>
+            <p ><input type="button"  id="hh88" value="邮箱注册" onclick="ben1()" style="background-image:url(image/current.gif);background-repeat:no-repeat;border:none;width:74px;height:24px;color:white;margin-right:8px;"/><input type="button"  value="手机注册" onclick="ben2()" id="Wal" style="background-image:url(image/gray.gif);background-repeat:no-repeat;border:none;width:74px;height:24px;color:black;"/></p>
+            <div  id="huop">
+                <p>
+                    <label class="rrrr">邮箱：</label>
+                    <input type="text"/>
+                    <label class="jdd1">推荐qq邮箱</label>
+                </p>
+                 <p>
+                    <label class="rrrr">用户名：</label>
+                    <input type="text"/>
+                     <label class="jdd1">4-6字符，不能包含数字</label>
+                </p>
+                   <p>
+                    <label class="rrrr">创建密码：</label>
+                    <input type="text"/>
+                   <label class="jdd1"> 3-32字符</label>
+                </p>
+                 <p>
+                    <label class="rrrr">确认密码：</label>
+                    <input type="text"/>
+                   <label class="jdd1">请再次输入密码</label>
+                </p>
+                <p>
+                   <label class="rrrr">所在城市：</label>
+                  <select>
+                    <option>--省--</option>
+                    <option>湖北</option>
+                    <option>湖南</option>
+                    <option>福建</option>
+                </select>
+                   <select>
+                    <option value="-1" selected="selected">--市区--</option>
+                    <option value="0">武汉</option>
+                    <option value="1">荆州</option>
+                </select>
+                </p>
+                <p>
+                   <label class="rrrr">验证码：</label>
+                   <input type="text"/>
+                   <img src="image/code_img.gif" id="ffssk"/>
+                </p>
+                <p style="padding-left:30px;"><a href="#"><img src="image/register.jpg"/></a><label id="ssjoo">《桃花涧用户协议》</label></p>
+            </div>
+
+            <div id="hyr" style="display:none;">
+                  <p>
+                    <label class="rrrr">电话：</label>
+                    <input type="text"/>
+                    <label class="jdd1">用于等于登录，找回密码，找回密码</label>
+                </p>
+                 <p>
+                    <label class="rrrr">短信验证码：</label>
+                    <input type="text"/>
+                     <label class="jdd1">请输入手机收到的验证码</label>
+                </p>
+                   <p>
+                    <label class="rrrr">创建密码：</label>
+                    <input type="text"/>
+                   <label class="jdd1"> 3-32字符</label>
+                </p>
+                 <p>
+                    <label class="rrrr">确认密码：</label>
+                    <input type="text"/>
+                   <label class="jdd1">请再次输入密码</label>
+                </p>
+                <p style="padding-left:30px;"><a href="#"><img src="image/register.jpg"/></a><label id="Label1">《美淘网用户协议》</label></p>
+
+            </div>
+        </fieldset>
+        <fieldset id="Fieldset1" style="position:relative;">
+        <legend>登录MEITAO.COM</legend>
+          <p  style="padding-left:5px;"><input type="button"  id="Button1" value="邮箱注册" onclick="ben11()" style="background-image:url(image/current.gif);background-repeat:no-repeat;border:none;width:74px;height:24px;color:white;margin-right:8px;"/><input type="button"  value="手机注册" onclick="    ben22()" id="Button2" style="background-image:url(image/gray.gif);background-repeat:no-repeat;border:none;width:74px;height:24px;color:black;"/></p>
+            <div id="gdtk">
+                 <p>
+                    <label class="rrrr" id="gdff">邮箱：</label>
+                    <input type="text"/>
+                </p>
+                 <p>
+                    <label class="rrrr">用户名：</label>
+                    <input type="text"/>
+                </p>
+                   <p style="padding-left:30px;"><a href="#"><img src="image/login.jpg"/></a><label id="Label2">&nbsp&nbsp忘记密码？</label></p>
+            </div>
+        </fieldset>
+    </div>
+    <iframe src="index4.html" width="100%" height="130" frameborder="0" scrolling="no"></iframe>
+
+</body>
+</html>

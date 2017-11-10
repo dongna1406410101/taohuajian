@@ -1,0 +1,183 @@
+﻿        * {
+            padding:0px;
+            margin:0px;
+            /*font:20px bold 微软雅黑;*/
+            list-style:none;
+            text-decoration:none;
+        }
+        #a1 {
+            width:100%;
+            height:39px;
+            background-color:fuchsia;
+        }
+        #nav {
+            width:985px;
+            height:39px;
+            /*background-color:#936;*/
+            margin:0px auto;
+        }
+        #a2,#a3{
+             width:985px;
+             margin:0px auto;
+             /*border:1px solid #f00;*/
+             overflow:hidden;
+        }
+        #a2 {
+            margin-bottom:5px;
+        }
+        #navlist {
+            width:129px; 
+            height:271px;
+            float:left;
+            
+        }
+        #typesearch {
+            width:850px; 
+            height:54px;
+            /*border:1px solid #f00;*/
+            float:right;
+        }
+        #week {
+             width:850px; 
+             height:214px;
+             /*border:1px solid #f00;*/
+             float:right;
+        }
+        #goods {
+             width:735px;
+             /*height:675px;*/
+             /*border:1px solid #f00;*/
+             float:left;
+             
+        }
+        #side {
+             width:240px;
+             /*height:1000px;*/
+             /*border:1px solid #f00;*/
+             float:left;
+             margin-left:6px;
+        }
+         a img{
+                border:none;
+            }
+                     #nav ul li {
+                float:left;
+            }
+           #nav ul li a {
+               padding:0px 16px;
+               height:39px;
+               line-height:39px;
+              display:block;
+              font-weight:bold;
+              font:15px;
+              color:white;
+            }
+            #nav ul li a:hover {
+                background-color:#f2a;
+            }
+            #q2 li, #q3 li {
+                float:left;
+            }
+            .h1 {
+               width: 850px;
+               float:left;
+            }
+            #q2 li a,  #q3 li a {
+                padding:0px 10px;
+                font:12px bold;
+                color:black;
+            }
+            #q2 li a:hover, #q3 li a:hover {
+                color:#f2a;
+            }
+            #im {
+            background-image: url(../image/icon.gif);
+            background-repeat: no-repeat;
+            background-position:left top;
+            background-position-y:5.5px;
+            background-position-x:12px;
+            }
+            #in {
+            background-image: url(../image/icon.gif);
+            background-repeat: no-repeat;
+            background-position:left top;
+            background-position-y:-17.8px;
+            background-position-x:12px;
+
+            }
+            #week p {
+                    font-weight:bold;
+                    font-size:12px;
+                    padding-left:28px;
+                    background-image: url(../image/icon.gif);
+                    background-repeat: no-repeat;
+                    background-position:left top;
+                    background-position-y:-46px;
+                    background-position-x:12px;
+            }
+            #week div {
+                float:left;
+                margin-top:6px;
+            }
+            .ww {
+                   font-weight:bold;
+                    font-size:12px;
+                    padding-left:28px;
+                    background-image: url(../image/icon.gif);
+                    background-repeat: no-repeat;
+                    background-position:left top;
+                    background-position-y:-67px;
+                    background-position-x:12px;
+                    margin-bottom:3px;
+            }
+            #goods dl {
+                float:left;
+                width:350px;
+                height:320px;
+                border:1px solid #ccc;
+                margin-right:6px;
+                margin-bottom:8px;
+            }
+                #goods dl dd {
+                    line-height:25px;
+                    padding-left:17px;
+                }
+            .name {
+                font-weight:bold;
+                font-size:13px;
+            }
+            .discount {
+                color:fuchsia;
+                font:bold 16px Verdana,Geneva,Sans-serif;
+            }
+            .price {
+                text-decoration:line-through;
+            }
+
+            .ee {
+                font-size:13px;
+            }
+             #nav ul li ul li{ 
+                float:none;
+                text-align:center;
+            }
+            #nav ul li ul {
+                background-color:fuchsia;
+                position:absolute;
+                width:129px; 
+                height:273px;
+                display:none;
+            }
+            #nav ul li:hover ul {
+                display:block;
+            }
+            #e11 {
+                background-image:url(../image/arrow-right.gif);
+                background-repeat:no-repeat;
+                background-position:right;
+            }
+            #nav ul :hover #e11{
+                background-image:url(../image/arrow-down.gif);
+                background-repeat:no-repeat;
+                background-position:right;
+            }
