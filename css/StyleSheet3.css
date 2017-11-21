@@ -6,20 +6,20 @@
     text-decoration: none;
 }
 
-#a1 {
+#a1{
     width: 100%;
     height: 33px;
     background-color: #bfbfbf;
 }
 
-#menu {
+#menu{
     width: 985px;
     height: 33px;
     /*border:1px solid red;*/
     margin: 0px auto;
 }
 
-#search {
+#search{
     width: 985px;
     height: 66px;
     /*border:1px solid red;*/

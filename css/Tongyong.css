@@ -1,4 +1,4 @@
-﻿* {
+﻿*{
     padding: 0px;
     margin: 0px;
     /*font:20px bold 微软雅黑;*/
@@ -6,12 +6,12 @@
     text-decoration: none;
 }
 
-a img {
+a img{
     border: none;
 }
-a {
+a{
     color:black;
 }
-* {
+*{
     font-family:微软雅黑;
 }

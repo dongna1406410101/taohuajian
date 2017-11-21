@@ -1,16 +1,16 @@
-﻿       * {
+﻿       *{
             padding:0px;
             margin:0px;
 
             list-style:none;
             text-decoration:none;
         }
-        #a1 {
+        #a1{
             width:100%;
             height:2px;
             background-color:fuchsia;
         }
-        #fcontent {
+        #fcontent{
             width:985px;
             height:150px;
             margin:0px auto;
@@ -18,5 +18,5 @@
             /*margin-top:2px;*/
         }
     a {
-        border:none;
+       border:none;
     }
